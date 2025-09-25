@@ -4,6 +4,6 @@ A python package created solely to perform simulated annealing on a parameter gr
 
 ![plot](plots/energy_optimization.png)
 
-![plot](plots/optmization_path.png)
+![path](plots/optimization_path.png)
 
-![plot](notebooks/spin_optimization.gif)
+![opt](notebooks/spin_optimization.gif)
