@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=64.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simulated-annealer"
+version = "0.1.0"
+description = "Simple simulated annealing optimizer for parameters"
+authors = [
+    { name="Nolan Sandgathe", email="nolansandgathe@gmail.com" }
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "numba"
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["simulated_annealer"]
